@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~     Nim : 10119191
+  ~     Nama : Kiki Mulyadi
+  ~     Tanggal Pengerjaan : 2 Juni 2022
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_gravity="center_horizontal"
+    tools:context=".ViewDialog"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dialog">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berhasil Mendapatkan Akses"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Tap Tombol Di Bawah Untuk Memulai Mengisi Form Lapor Kesehatan Harian"
+        android:gravity="center"
+        android:textSize="20dp">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/ok">
+
+    </Button>
+</LinearLayout>
